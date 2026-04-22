@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2026-02-06T11:52:06.966083",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770376173.191354",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-06T11:52:25.047621",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770377035.582798",
+      "rule": "Webapp: Bruteforce attempt"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-06T11:52:43.104076",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770377295.701395",
+      "rule": "Webapp: Bruteforce attempt"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-06T11:52:59.159436",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770377459.745538",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-06T13:44:05.596659",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770377035.582798",
+      "rule": "Webapp: Bruteforce attempt"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-07T04:41:40.558189",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770439288.13005464",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-07T04:46:21.910421",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770439288.13005464",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-08T17:37:31.607465",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770571391.9411391",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-08T17:37:31.613348",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770571396.9412020",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-08T17:37:31.614378",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770571613.9412649",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-08T17:37:43.670346",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770571617.9413278",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-02-08T17:37:43.672435",
+    "alert_type": "INVESTIGATOR_UNAVAILABLE",
+    "message": "Investigator Agent unavailable after 3 retries. Workflow aborted.",
+    "details": {
+      "alert_id": "1770571629.9413907",
+      "rule": "SQLi: Login bypass attempt (OR 1=1 style)"
+    },
+    "resolved": false
+  }
+]

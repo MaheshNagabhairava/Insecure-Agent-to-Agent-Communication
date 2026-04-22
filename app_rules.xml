@@ -1,0 +1,88 @@
+<group name="webapp,attack">
+
+<rule id="100201" level="8" overwrite="yes">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)\b(or|and|xor)\b\s*['"]?\w+['"]?\s*(=|!=|&lt;&gt;|&lt;|&gt;|like|regexp)\s*['"]?\w+['"]?|['"]?\w+['"]?\s*=\s*['"]?\w+['"]?</regex>
+  <description>SQLi: Login bypass attempt (OR 1=1 style)</description>
+</rule>
+
+  <rule id="110002" level="8" overwrite="yes">
+    <decoded_as>json</decoded_as>
+    <regex type="pcre2">(?i)\bunion\b(\s*|/\*.*?\*/)+(all\s+)?select\b</regex>
+    <description>SQLi: UNION SELECT attack with potential comment obfuscation</description>
+  </rule>
+
+  <rule id="110003" level="8" overwrite="yes">
+    <decoded_as>json</decoded_as>
+    <regex type="pcre2">;\s*(select|insert|update|delete|drop|alter|create|truncate|grant|exec|execute)\b</regex>
+    <description>SQLi: Stacked queries or administrative command execution</description>
+  </rule>
+
+  <rule id="110005" level="8" overwrite="yes">
+    <decoded_as>json</decoded_as>
+    <regex type="pcre2">(?i)\b(sleep|benchmark|pg_sleep|waitfor\s+delay|dbms_lock\.sleep)\s*\(</regex>
+    <description>SQLi: Time-based blind injection or DoS attempt</description>
+  </rule>
+
+  <rule id="110006" level="8" overwrite="yes">
+    <decoded_as>json</decoded_as>
+    <regex type="pcre2">(?i)\b(information_schema|pg_catalog|sysobjects|syscolumns|all_tables|user_tables|master\.\.sysdatabases)\b</regex>
+    <description>SQLi: Database schema/metadata discovery attempt</description>
+  </rule>
+
+  <rule id="110008" level="8">
+    <decoded_as>json</decoded_as>
+    <regex type="pcre2">(?i)\b(load_file|into\s+outfile|to_char|cast\(|convert\(|version\(|user\(\))</regex>
+    <description>SQLi: Malicious function injection (Data exfiltration/conversion)</description>
+  </rule>
+
+<rule id="110004" level="8">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)(--|#|/\*.*?\*/)</regex>
+  <description>SQLi: comment-based obfuscation</description>
+</rule>
+
+<rule id="110007" level="8">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)\b0x[a-f0-9]{4,}\b</regex>
+  <description>SQLi: hex-encoded payload</description>
+</rule>
+
+<rule id="110101" level="6">
+  <decoded_as>json</decoded_as>
+  <field name="response_status">^401$|^403$|^429$</field>
+  <description>Webapp: Bruteforce attempt</description>
+</rule>
+
+<rule id="110301" level="10">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)[;&amp;|`]\s*(whoami|id|cat|ls|dir|ipconfig|ifconfig|net\s+user|powershell|uname|wget|curl)\b</regex>
+  <description>Command Injection: System command execution attempt</description>
+</rule>
+
+<rule id="110401" level="9">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)(\.\./|\.\.\\|/etc/passwd|/etc/shadow|/windows/win.ini|c:\\windows\\)</regex>
+  <description>LFI/Path Traversal: Sensitive file or directory access attempt</description>
+</rule>
+
+<rule id="110201" level="9">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)&lt;script|javascript:|alert\(|confirm\(|prompt\(|window\.location|eval\(|document\.cookie|document\.domain|String\.fromCharCode|onload\s*=|onerror\s*=|src\s*=\s*['"]?javascript:</regex>
+  <description>XSS: Common JavaScript payload detected</description>
+</rule>
+
+<rule id="110202" level="9">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)on(error|load|mouseover|focus|click)\s*=</regex>
+  <description>XSS: Malicious HTML event handler detected</description>
+</rule>
+
+<rule id="110203" level="9">
+  <decoded_as>json</decoded_as>
+  <regex type="pcre2">(?i)&lt;(iframe|img|audio|video|svg|a|details|body|object|embed|base|meta)\b.*?(on\w+\s*=|[^\w]src\s*=)</regex>
+  <description>XSS: Malicious HTML tag with executable attribute detected</description>
+</rule>
+
+</group>
+

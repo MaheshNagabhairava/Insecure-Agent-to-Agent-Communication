@@ -1,0 +1,349 @@
+{"timestamp": "2026-02-07T17:54:47.770462", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-07T17:54:47.771444", "alert_id": "1770486850.6804041", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-07T17:58:13.750142", "alert_id": "1770487056.6893685", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-02-07T17:58:15.791374", "alert_id": "1770487056.6893685", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-02-07T18:28:36.129516", "alert_id": "1770488878.7802165", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-07T18:58:10.809571", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-07T18:58:10.810089", "alert_id": "1770488878.7802165", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-07T19:00:56.322079", "alert_id": "1770490817.8755562", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-02-07T19:00:56.323159", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-07T19:00:56.323159", "alert_id": "1770490817.8755562", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-07T19:04:12.415508", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-07T19:04:12.417012", "alert_id": "1770491017.8841896", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:19:15.347627", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:19:15.348623", "alert_id": "1770538720.121585", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:22:16.893538", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:22:16.894556", "alert_id": "1770538900.199483", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:24:29.655398", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:24:29.656792", "alert_id": "1770539034.253369", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:25:53.936948", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:25:53.938025", "alert_id": "1770539116.280575", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:27:22.002028", "alert_id": "1770539202.313117", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T08:27:22.003035", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:27:22.003035", "alert_id": "1770539202.313117", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:29:18.064069", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:29:18.065091", "alert_id": "1770539318.355629", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:30:19.059534", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:30:19.060558", "alert_id": "1770539382.369527", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:33:30.927962", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:33:30.928935", "alert_id": "1770539571.448109", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:34:49.529413", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:34:49.530445", "alert_id": "1770539654.472749", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:35:28.673781", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:35:28.674765", "alert_id": "1770539683.479969", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T08:37:45.863805", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:37:45.865362", "alert_id": "1770539833.533971", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:39:56.575402", "alert_id": "1770539955.580617", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T08:39:56.575402", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:39:56.576475", "alert_id": "1770539955.580617", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:42:16.603046", "alert_id": "1770540100.637522", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T08:42:16.604271", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:42:16.604271", "alert_id": "1770540100.637522", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:44:54.845451", "alert_id": "1770540259.700889", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T08:44:54.846748", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:44:54.846748", "alert_id": "1770540259.700889", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:46:14.835709", "alert_id": "1770540341.726888", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 10 minutes"}}
+{"timestamp": "2026-02-08T08:46:14.837179", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:46:14.837687", "alert_id": "1770540341.726888", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:50:37.839425", "alert_id": "1770540601.842326", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T08:50:37.839425", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:50:37.840935", "alert_id": "1770540601.842326", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T08:52:56.380409", "alert_id": "1770540739.899678", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T08:52:56.381662", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T08:52:56.381662", "alert_id": "1770540739.899678", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:04:34.426480", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:04:34.426480", "alert_id": "1770539571.448109", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:04:36.094717", "alert_id": "1770539654.472749", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T09:04:36.096018", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:04:36.096018", "alert_id": "1770539654.472749", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:04:36.158180", "alert_id": "1770539318.355629", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:04:36.159757", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:04:36.159757", "alert_id": "1770539318.355629", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:04:36.847803", "alert_id": "1770539383.370167", "action": "incident_logged", "details": {"action": "block_account", "target": "'or'1'='1", "success": true, "message": "Account ''or'1'='1' has been blocked"}}
+{"timestamp": "2026-02-08T09:04:37.697523", "alert_id": "1770539382.369527", "action": "incident_logged", "details": {"action": "block_account", "target": "'or'1'='1", "success": true, "message": "Account ''or'1'='1' has been blocked"}}
+{"timestamp": "2026-02-08T09:04:38.898066", "alert_id": "1770539383.370167", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "'or'1'='1", "success": true, "message": "Session invalidated for ''or'1'='1'"}}
+{"timestamp": "2026-02-08T09:04:38.899047", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:04:38.900018", "alert_id": "1770539383.370167", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:04:39.727182", "alert_id": "1770539382.369527", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "'or'1'='1", "success": true, "message": "Session invalidated for ''or'1'='1'"}}
+{"timestamp": "2026-02-08T09:04:39.728190", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:04:39.729545", "alert_id": "1770539382.369527", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:05:04.176181", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:05:04.177328", "alert_id": "1770539683.479969", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T09:05:15.070570", "alert_id": "1770541480.1252444", "action": "incident_logged", "details": {"action": "block_ip", "target": "127.0.0.1", "success": true, "message": "IP '127.0.0.1' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:05:15.071551", "alert_id": "127.0.0.1", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:05:15.071551", "alert_id": "1770541480.1252444", "action": "incident_logged", "details": {"action": "log_incident", "target": "127.0.0.1", "success": true, "message": "Incident logged: 127.0.0.1"}}
+{"timestamp": "2026-02-08T09:05:16.093534", "alert_id": "1770541479.1251770", "action": "incident_logged", "details": {"action": "block_ip", "target": "127.0.0.1", "success": true, "message": "IP '127.0.0.1' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:05:16.093534", "alert_id": "127.0.0.1", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:05:16.094783", "alert_id": "1770541479.1251770", "action": "incident_logged", "details": {"action": "log_incident", "target": "127.0.0.1", "success": true, "message": "Incident logged: 127.0.0.1"}}
+{"timestamp": "2026-02-08T09:06:52.018892", "alert_id": "1770541575.1302492", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:06:52.020146", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:06:52.020146", "alert_id": "1770541575.1302492", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:06:52.094677", "alert_id": "1770541575.1303121", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:06:52.095682", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:06:52.095682", "alert_id": "1770541575.1303121", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:06:52.330797", "alert_id": "1770541575.1301286", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:06:52.331802", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:06:52.331802", "alert_id": "1770541575.1301286", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:06:52.578464", "alert_id": "1770541575.1301884", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:06:52.579507", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:06:52.580203", "alert_id": "1770541575.1301884", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:06:52.645870", "alert_id": "1770541575.1303756", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:06:52.647181", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:06:52.647181", "alert_id": "1770541575.1303756", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:09:06.320753", "alert_id": "1770541705.1369915", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T09:09:06.321831", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:09:06.321831", "alert_id": "1770541705.1369915", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T09:37:15.233478", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T09:37:15.234708", "alert_id": "1770543399.2235163", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:23:00.112142", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:23:00.113745", "alert_id": "1770571342.9410133", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T17:23:01.754317", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:23:01.755626", "alert_id": "1770571345.9410762", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:27:33.466770", "alert_id": "1770571613.9412649", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T17:27:33.467810", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:27:33.467810", "alert_id": "1770571613.9412649", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:27:36.829427", "alert_id": "1770571617.9413278", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T17:27:36.830612", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:27:36.831599", "alert_id": "1770571617.9413278", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:27:50.062873", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:27:50.063919", "alert_id": "1770571629.9413907", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T17:38:35.238236", "alert_id": "1770571396.9412020", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T17:38:35.238236", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:38:35.239477", "alert_id": "1770571396.9412020", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:38:35.874384", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:38:35.875369", "alert_id": "1770571345.9410762", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:38:37.530263", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:38:37.531268", "alert_id": "1770571342.9410133", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T17:38:37.907930", "alert_id": "1770571613.9412649", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 15 minutes"}}
+{"timestamp": "2026-02-08T17:38:37.910001", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:38:37.910001", "alert_id": "1770571613.9412649", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:38:38.672470", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:38:38.673559", "alert_id": "1770571391.9411391", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:39:12.277007", "alert_id": "1770571629.9413907", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.4", "success": true, "message": "IP '192.168.1.4' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T17:39:12.277007", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:39:12.278386", "alert_id": "1770571629.9413907", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T17:43:04.916882", "alert_id": "1770572547.9417026", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.3", "success": true, "message": "IP '192.168.1.3' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T17:43:04.918419", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:43:04.918419", "alert_id": "1770572547.9417026", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-08T17:45:39.612484", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:45:39.614082", "alert_id": "1770572700.9418861", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-08T17:46:32.874143", "alert_id": "1770572751.9419490", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.4", "success": true, "message": "IP '192.168.1.4' blocked for 5 minutes"}}
+{"timestamp": "2026-02-08T17:46:32.874143", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-08T17:46:32.875423", "alert_id": "1770572751.9419490", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-09T10:26:21.462786", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:26:21.470859", "alert_id": "1770632761.845993", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-02-09T10:28:25.546517", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:28:25.546517", "alert_id": "1770632880.908084", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-02-09T10:28:27.579647", "alert_id": "1770632880.908084", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-02-09T10:29:31.616444", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:29:31.616987", "alert_id": "1770632946.940810", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-09T10:30:29.320778", "alert_id": "1770633000.970808", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-02-09T10:30:29.321990", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:30:29.323351", "alert_id": "1770633000.970808", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-02-09T10:31:09.996078", "alert_id": "1770633042.991508", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.2", "success": true, "message": "IP '192.168.1.2' blocked for 15 minutes"}}
+{"timestamp": "2026-02-09T10:31:09.997061", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:31:09.997061", "alert_id": "1770633042.991508", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-09T10:56:50.491411", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T10:56:50.491411", "alert_id": "1770634584.1768790", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-09T11:44:41.625220", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T11:44:41.625220", "alert_id": "1770637458.3223831", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-09T14:13:47.952977", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-09T14:13:47.954485", "alert_id": "1770637458.3223831", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-11T18:39:32.773064", "alert_id": "192.168.1.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-11T18:39:32.774073", "alert_id": "1770835127.1317889", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.4", "success": true, "message": "Incident logged: 192.168.1.4"}}
+{"timestamp": "2026-02-11T18:55:46.459175", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-11T18:55:46.461137", "alert_id": "1770836091.1779010", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-11T19:00:09.156118", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-11T19:00:09.157095", "alert_id": "1770836359.1909051", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-11T19:05:06.480656", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-11T19:05:06.481667", "alert_id": "1770836655.2049814", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-12T13:01:43.529532", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T13:01:43.531041", "alert_id": "1770901263.47680", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T13:03:20.323756", "alert_id": "1770901357.97359", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.2", "success": true, "message": "IP '192.168.1.2' blocked for 15 minutes"}}
+{"timestamp": "2026-02-12T13:03:20.324839", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T13:03:20.325344", "alert_id": "1770901357.97359", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T13:06:40.442668", "alert_id": "1770901263.47680", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.2", "success": true, "message": "IP '192.168.1.2' blocked for 15 minutes"}}
+{"timestamp": "2026-02-12T13:06:40.444711", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T13:06:40.444711", "alert_id": "1770901263.47680", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T13:06:40.668221", "alert_id": "1770901357.97359", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.2", "success": true, "message": "IP '192.168.1.2' blocked for 10 minutes"}}
+{"timestamp": "2026-02-12T13:06:40.669225", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T13:06:40.670208", "alert_id": "1770901357.97359", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T13:43:19.711025", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T13:43:19.712079", "alert_id": "1770903763.1324196", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T14:53:48.110566", "alert_id": "1770907932.3117311", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T14:53:48.112099", "alert_id": "1770907932.3117311", "action": "incident_logged", "details": {"action": "log_incident", "target": "1770907932.3117311", "success": true, "message": "Incident logged: 1770907932.3117311"}}
+{"timestamp": "2026-02-12T15:09:14.264265", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T15:09:14.265283", "alert_id": "1770908914.3606323", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T15:25:50.659282", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T15:25:50.660668", "alert_id": "1770909927.4122552", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-02-12T15:35:50.341992", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T15:35:50.343017", "alert_id": "1770910511.4422094", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T15:39:49.880192", "alert_id": "1770910755.4548213", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.1.2", "success": true, "message": "IP '192.168.1.2' blocked for 5 minutes"}}
+{"timestamp": "2026-02-12T15:39:49.881321", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T15:39:49.881321", "alert_id": "1770910755.4548213", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-02-12T15:40:15.958748", "alert_id": "192.168.1.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-02-12T15:40:15.959289", "alert_id": "1770910779.4562197", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.2", "success": true, "message": "Incident logged: 192.168.1.2"}}
+{"timestamp": "2026-03-20T03:25:30.287605", "alert_id": "192.168.0.5", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-20T03:25:30.292853", "alert_id": "1773977074.119652", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.5", "success": true, "message": "Incident logged: 192.168.0.5"}}
+{"timestamp": "2026-03-20T03:28:17.621433", "alert_id": "1773977264.187964", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.5", "success": true, "message": "IP '192.168.0.5' blocked for 5 minutes"}}
+{"timestamp": "2026-03-20T03:28:17.621433", "alert_id": "192.168.0.5", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-20T03:28:17.621433", "alert_id": "1773977264.187964", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.5", "success": true, "message": "Incident logged: 192.168.0.5"}}
+{"timestamp": "2026-03-20T03:28:38.953927", "alert_id": "1773977277.193916", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.5", "success": true, "message": "IP '192.168.0.5' blocked for 12 minutes"}}
+{"timestamp": "2026-03-20T03:28:38.954455", "alert_id": "192.168.0.5", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-20T03:28:38.955481", "alert_id": "1773977277.193916", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.5", "success": true, "message": "Incident logged: 192.168.0.5"}}
+{"timestamp": "2026-03-24T08:41:43.829364", "alert_id": "192.168.0.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:41:43.832899", "alert_id": "1774341648.446159", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.2", "success": true, "message": "Incident logged: 192.168.0.2"}}
+{"timestamp": "2026-03-24T08:49:54.873144", "alert_id": "192.168.0.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:49:54.874168", "alert_id": "1774342134.687129", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.2", "success": true, "message": "Incident logged: 192.168.0.2"}}
+{"timestamp": "2026-03-24T08:50:11.436663", "alert_id": "1774342128.681173", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.2", "success": true, "message": "IP '192.168.0.2' blocked for 5 minutes"}}
+{"timestamp": "2026-03-24T08:50:11.439752", "alert_id": "Alert ID 1774342128.681173", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:50:11.440797", "alert_id": "1774342128.681173", "action": "incident_logged", "details": {"action": "log_incident", "target": "Alert ID 1774342128.681173", "success": true, "message": "Incident logged: Alert ID 1774342128.681173"}}
+{"timestamp": "2026-03-24T08:50:29.442820", "alert_id": "1774342148.693085", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.2", "success": true, "message": "IP '192.168.0.2' blocked for 5 minutes"}}
+{"timestamp": "2026-03-24T08:50:29.443924", "alert_id": "192.168.0.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:50:29.446048", "alert_id": "1774342148.693085", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.2", "success": true, "message": "Incident logged: 192.168.0.2"}}
+{"timestamp": "2026-03-24T08:51:53.414061", "alert_id": "1774342240.739021", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.2", "success": true, "message": "IP '192.168.0.2' blocked for 15 minutes"}}
+{"timestamp": "2026-03-24T08:51:53.415122", "alert_id": "192.168.0.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:51:53.416197", "alert_id": "1774342240.739021", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.2", "success": true, "message": "Incident logged: 192.168.0.2"}}
+{"timestamp": "2026-03-24T08:52:44.870032", "alert_id": "1774342304.774095", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-24T08:52:46.898116", "alert_id": "1774342304.774095", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-24T08:52:46.899679", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:52:46.901278", "alert_id": "1774342304.774095", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-03-24T08:52:47.088986", "alert_id": "1774342295.766219", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-24T08:52:49.111395", "alert_id": "1774342295.766219", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-24T08:52:49.113567", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:52:49.114621", "alert_id": "1774342295.766219", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-03-24T08:52:56.579240", "alert_id": "1774342300.769520", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-24T08:52:58.600556", "alert_id": "1774342300.769520", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-24T08:52:58.601062", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:52:58.601062", "alert_id": "1774342300.769520", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-03-24T08:53:00.702384", "alert_id": "1774342300.770157", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-24T08:53:02.726368", "alert_id": "1774342300.770157", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-24T08:53:02.727354", "alert_id": "mahesh", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:53:02.727354", "alert_id": "1774342300.770157", "action": "incident_logged", "details": {"action": "log_incident", "target": "mahesh", "success": true, "message": "Incident logged: mahesh"}}
+{"timestamp": "2026-03-24T08:54:27.520878", "alert_id": "1774342301.770794", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-24T08:54:29.536544", "alert_id": "1774342301.770794", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-24T08:54:29.538100", "alert_id": "1774342301.770794", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:54:29.538638", "alert_id": "1774342301.770794", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774342301.770794", "success": true, "message": "Incident logged: 1774342301.770794"}}
+{"timestamp": "2026-03-24T08:55:11.629669", "alert_id": "1774342409.830494", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.2", "success": true, "message": "IP '192.168.0.2' blocked for 15 minutes"}}
+{"timestamp": "2026-03-24T08:55:11.630187", "alert_id": "192.168.0.2", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-24T08:55:11.630187", "alert_id": "1774342409.830494", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.2", "success": true, "message": "Incident logged: 192.168.0.2"}}
+{"timestamp": "2026-03-29T12:37:44.279324", "alert_id": "1774787813.6882588", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-29T12:37:45.756725", "alert_id": "1774787815.6883226", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-29T12:37:46.314821", "alert_id": "1774787813.6882588", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-29T12:37:46.316432", "alert_id": "1774787813.6882588", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:37:46.317468", "alert_id": "1774787813.6882588", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774787813.6882588", "success": true, "message": "Incident logged: 1774787813.6882588"}}
+{"timestamp": "2026-03-29T12:37:47.779442", "alert_id": "1774787815.6883226", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-29T12:37:47.779966", "alert_id": "1774787815.6883226", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:37:47.781026", "alert_id": "1774787815.6883226", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774787815.6883226", "success": true, "message": "Incident logged: 1774787815.6883226"}}
+{"timestamp": "2026-03-29T12:37:48.768537", "alert_id": "1774787815.6883864", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-29T12:37:49.444567", "alert_id": "1774787817.6887174", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-29T12:37:50.793157", "alert_id": "1774787815.6883864", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-29T12:37:50.794678", "alert_id": "1774787815.6883864", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:37:50.795687", "alert_id": "1774787815.6883864", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774787815.6883864", "success": true, "message": "Incident logged: 1774787815.6883864"}}
+{"timestamp": "2026-03-29T12:37:51.472655", "alert_id": "1774787817.6887174", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-29T12:37:51.475844", "alert_id": "1774787817.6887174", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:37:51.477441", "alert_id": "1774787817.6887174", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774787817.6887174", "success": true, "message": "Incident logged: 1774787817.6887174"}}
+{"timestamp": "2026-03-29T12:37:51.657869", "alert_id": "1774787817.6887812", "action": "incident_logged", "details": {"action": "block_account", "target": "mahesh", "success": true, "message": "Account 'mahesh' has been blocked"}}
+{"timestamp": "2026-03-29T12:37:53.674214", "alert_id": "1774787817.6887812", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "mahesh", "success": true, "message": "Session invalidated for 'mahesh'"}}
+{"timestamp": "2026-03-29T12:37:53.675732", "alert_id": "1774787817.6887812", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:37:53.676776", "alert_id": "1774787817.6887812", "action": "incident_logged", "details": {"action": "log_incident", "target": "1774787817.6887812", "success": true, "message": "Incident logged: 1774787817.6887812"}}
+{"timestamp": "2026-03-29T12:39:39.021340", "alert_id": "1774787927.6945854", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 12 minutes"}}
+{"timestamp": "2026-03-29T12:39:39.021890", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:39:39.022959", "alert_id": "1774787927.6945854", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:39:59.796806", "alert_id": "1774787931.6946483", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 12 minutes"}}
+{"timestamp": "2026-03-29T12:39:59.797838", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:39:59.798827", "alert_id": "1774787931.6946483", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:40:10.451538", "alert_id": "1774787945.6955128", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:40:10.453073", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:40:10.453626", "alert_id": "1774787945.6955128", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:41:06.877305", "alert_id": "1774788009.6987847", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:41:06.877305", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:41:06.878844", "alert_id": "1774788009.6987847", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:42:53.024253", "alert_id": "1774788117.7039270", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:42:53.025344", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:42:53.027272", "alert_id": "1774788117.7039270", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:43:08.005980", "alert_id": "1774788133.7047915", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 12 minutes"}}
+{"timestamp": "2026-03-29T12:43:08.007964", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:43:08.009137", "alert_id": "1774788133.7047915", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:43:29.503586", "alert_id": "1774788151.7056560", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:43:29.504715", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:43:29.505742", "alert_id": "1774788151.7056560", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:45:16.200338", "alert_id": "1774788233.7094597", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:45:16.201925", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:45:16.203500", "alert_id": "1774788233.7094597", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:45:26.622682", "alert_id": "1774788255.7106543", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 12 minutes"}}
+{"timestamp": "2026-03-29T12:45:26.624769", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:45:26.624769", "alert_id": "1774788255.7106543", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:45:29.387556", "alert_id": "1774788251.7105914", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:45:29.389063", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:45:29.389606", "alert_id": "1774788251.7105914", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:46:09.569073", "alert_id": "1774788293.7125876", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.3", "success": true, "message": "IP '192.168.0.3' blocked for 15 minutes"}}
+{"timestamp": "2026-03-29T12:46:09.571188", "alert_id": "192.168.0.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:46:09.571743", "alert_id": "1774788293.7125876", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.3", "success": true, "message": "Incident logged: 192.168.0.3"}}
+{"timestamp": "2026-03-29T12:47:39.432186", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:47:39.433275", "alert_id": "1774788427.7190633", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-03-29T12:48:05.122464", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:48:05.122464", "alert_id": "1774788441.7196606", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-03-29T12:48:05.264844", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-03-29T12:48:05.265904", "alert_id": "1774788444.7199907", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-04-01T16:57:25.533139", "alert_id": "192.168.0.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-01T16:57:25.536193", "alert_id": "1775062580.2497181", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.4", "success": true, "message": "Incident logged: 192.168.0.4"}}
+{"timestamp": "2026-04-01T16:59:10.632979", "alert_id": "1775062624.2519176", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.4", "success": true, "message": "IP '192.168.0.4' blocked for 5 minutes"}}
+{"timestamp": "2026-04-01T16:59:10.633985", "alert_id": "Alert ID 1775062624.2519176", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-01T16:59:10.634989", "alert_id": "1775062624.2519176", "action": "incident_logged", "details": {"action": "log_incident", "target": "Alert ID 1775062624.2519176", "success": true, "message": "Incident logged: Alert ID 1775062624.2519176"}}
+{"timestamp": "2026-04-01T17:02:03.301347", "alert_id": "1775062812.2615939", "action": "incident_logged", "details": {"action": "block_ip", "target": "192.168.0.4", "success": true, "message": "IP '192.168.0.4' blocked for 5 minutes"}}
+{"timestamp": "2026-04-01T17:02:03.303459", "alert_id": "192.168.0.4", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-01T17:02:03.303973", "alert_id": "1775062812.2615939", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.0.4", "success": true, "message": "Incident logged: 192.168.0.4"}}
+{"timestamp": "2026-04-02T11:21:20.676020", "alert_id": "1775128825.1746053", "action": "incident_logged", "details": {"action": "block_ip", "target": "10.79.200.211", "success": true, "message": "IP '10.79.200.211' blocked for 5 minutes"}}
+{"timestamp": "2026-04-02T11:21:20.677005", "alert_id": "10.79.200.211", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:21:20.678016", "alert_id": "1775128825.1746053", "action": "incident_logged", "details": {"action": "log_incident", "target": "10.79.200.211", "success": true, "message": "Incident logged: 10.79.200.211"}}
+{"timestamp": "2026-04-02T11:21:34.770580", "alert_id": "1775128829.1749364", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:21:36.789188", "alert_id": "1775128829.1749364", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:21:36.790205", "alert_id": "1775128829.1749364", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:21:36.791193", "alert_id": "1775128829.1749364", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128829.1749364", "success": true, "message": "Incident logged: 1775128829.1749364"}}
+{"timestamp": "2026-04-02T11:21:37.757062", "alert_id": "1775128835.1752700", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:21:39.777808", "alert_id": "1775128835.1752700", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:21:39.779317", "alert_id": "10.69.57.26", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:21:39.779317", "alert_id": "1775128835.1752700", "action": "incident_logged", "details": {"action": "log_incident", "target": "10.69.57.26", "success": true, "message": "Incident logged: 10.69.57.26"}}
+{"timestamp": "2026-04-02T11:21:41.529676", "alert_id": "1775128843.1756036", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:21:43.556874", "alert_id": "1775128843.1756036", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:21:43.559163", "alert_id": "1775128843.1756036", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:21:43.561351", "alert_id": "1775128843.1756036", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128843.1756036", "success": true, "message": "Incident logged: 1775128843.1756036"}}
+{"timestamp": "2026-04-02T11:22:01.916965", "alert_id": "1775128843.1756696", "action": "incident_logged", "details": {"action": "block_account", "target": "luffy", "success": true, "message": "Account 'luffy' has been blocked"}}
+{"timestamp": "2026-04-02T11:22:03.947083", "alert_id": "1775128843.1756696", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "luffy", "success": true, "message": "Session invalidated for 'luffy'"}}
+{"timestamp": "2026-04-02T11:22:03.948370", "alert_id": "1775128843.1756696", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:22:03.949463", "alert_id": "1775128843.1756696", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128843.1756696", "success": true, "message": "Incident logged: 1775128843.1756696"}}
+{"timestamp": "2026-04-02T11:22:42.472428", "alert_id": "1775128855.1763367", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:22:43.946682", "alert_id": "1775128851.1762707", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:22:44.494593", "alert_id": "1775128855.1763367", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:22:44.496110", "alert_id": "10.69.57.26", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:22:44.496110", "alert_id": "1775128855.1763367", "action": "incident_logged", "details": {"action": "log_incident", "target": "10.69.57.26", "success": true, "message": "Incident logged: 10.69.57.26"}}
+{"timestamp": "2026-04-02T11:22:45.982682", "alert_id": "1775128851.1762707", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:22:45.985565", "alert_id": "1775128851.1762707", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:22:45.987286", "alert_id": "1775128851.1762707", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128851.1762707", "success": true, "message": "Incident logged: 1775128851.1762707"}}
+{"timestamp": "2026-04-02T11:22:53.645184", "alert_id": "1775128855.1764027", "action": "incident_logged", "details": {"action": "block_account", "target": "saber", "success": true, "message": "Account 'saber' has been blocked"}}
+{"timestamp": "2026-04-02T11:22:55.668830", "alert_id": "1775128855.1764027", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "saber", "success": true, "message": "Session invalidated for 'saber'"}}
+{"timestamp": "2026-04-02T11:22:55.671482", "alert_id": "1775128855.1764027", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:22:55.672712", "alert_id": "1775128855.1764027", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128855.1764027", "success": true, "message": "Incident logged: 1775128855.1764027"}}
+{"timestamp": "2026-04-02T11:23:06.842935", "alert_id": "1775128919.1796799", "action": "incident_logged", "details": {"action": "block_account", "target": "luffy", "success": true, "message": "Account 'luffy' has been blocked"}}
+{"timestamp": "2026-04-02T11:23:08.859756", "alert_id": "1775128919.1796799", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "luffy", "success": true, "message": "Session invalidated for 'luffy'"}}
+{"timestamp": "2026-04-02T11:23:08.861567", "alert_id": "1775128919.1796799", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:23:08.862617", "alert_id": "1775128919.1796799", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775128919.1796799", "success": true, "message": "Incident logged: 1775128919.1796799"}}
+{"timestamp": "2026-04-02T11:29:05.492768", "alert_id": "wuff", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:29:05.493756", "alert_id": "1775129287.1979446", "action": "incident_logged", "details": {"action": "log_incident", "target": "wuff", "success": true, "message": "Incident logged: wuff"}}
+{"timestamp": "2026-04-02T11:29:25.968266", "alert_id": "1775129305.1990816", "action": "incident_logged", "details": {"action": "block_account", "target": "wuff", "success": true, "message": "Account 'wuff' has been blocked"}}
+{"timestamp": "2026-04-02T11:29:27.990440", "alert_id": "1775129305.1990816", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "wuff", "success": true, "message": "Session invalidated for 'wuff'"}}
+{"timestamp": "2026-04-02T11:29:27.992315", "alert_id": "1775129305.1990816", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:29:27.992820", "alert_id": "1775129305.1990816", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775129305.1990816", "success": true, "message": "Incident logged: 1775129305.1990816"}}
+{"timestamp": "2026-04-02T11:29:44.675552", "alert_id": "1775129321.1999512", "action": "incident_logged", "details": {"action": "block_account", "target": "wuff", "success": true, "message": "Account 'wuff' has been blocked"}}
+{"timestamp": "2026-04-02T11:29:46.697601", "alert_id": "1775129321.1999512", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "wuff", "success": true, "message": "Session invalidated for 'wuff'"}}
+{"timestamp": "2026-04-02T11:29:46.700287", "alert_id": "1775129321.1999512", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:29:46.701295", "alert_id": "1775129321.1999512", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775129321.1999512", "success": true, "message": "Incident logged: 1775129321.1999512"}}
+{"timestamp": "2026-04-02T11:29:57.066406", "alert_id": "1775129337.2008205", "action": "incident_logged", "details": {"action": "block_account", "target": "wuff", "success": true, "message": "Account 'wuff' has been blocked"}}
+{"timestamp": "2026-04-02T11:29:59.093299", "alert_id": "1775129337.2008205", "action": "incident_logged", "details": {"action": "invalidate_session", "target": "wuff", "success": true, "message": "Session invalidated for 'wuff'"}}
+{"timestamp": "2026-04-02T11:29:59.096245", "alert_id": "1775129337.2008205", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-02T11:29:59.097219", "alert_id": "1775129337.2008205", "action": "incident_logged", "details": {"action": "log_incident", "target": "1775129337.2008205", "success": true, "message": "Incident logged: 1775129337.2008205"}}
+{"timestamp": "2026-04-14T11:57:07.110484", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-14T11:57:07.111492", "alert_id": "1776167804.44424", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}
+{"timestamp": "2026-04-14T11:57:13.433344", "alert_id": "192.168.1.3", "action": "incident_logged", "details": {}}
+{"timestamp": "2026-04-14T11:57:13.433344", "alert_id": "1776167808.47711", "action": "incident_logged", "details": {"action": "log_incident", "target": "192.168.1.3", "success": true, "message": "Incident logged: 192.168.1.3"}}

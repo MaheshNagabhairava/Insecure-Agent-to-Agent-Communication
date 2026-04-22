@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Reviewer Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1a1a2e, #16213e);
+            padding: 20px 30px;
+            border-bottom: 2px solid #00ff88;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #00ff88;
+            font-size: 1.8em;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
+
+        header .status {
+            color: #00ff88;
+            font-size: 0.9em;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(26, 26, 46, 0.9);
+            border-radius: 12px;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-header {
+            background: linear-gradient(90deg, #16213e, #1a1a2e);
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(0, 255, 136, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header h2 {
+            color: #00ff88;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-header .count {
+            background: #ff3366;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+
+        .card-body {
+            padding: 15px 20px;
+            max-height: 350px;
+            overflow-y: auto;
+        }
+
+        .card-body::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .card-body::-webkit-scrollbar-track {
+            background: #1a1a2e;
+        }
+
+        .card-body::-webkit-scrollbar-thumb {
+            background: #00ff88;
+            border-radius: 3px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 12px 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            color: #00ff88;
+            font-weight: 600;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+
+        td {
+            font-size: 0.9em;
+        }
+
+        tr:hover {
+            background: rgba(0, 255, 136, 0.05);
+        }
+
+        .btn {
+            padding: 6px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.3s ease;
+        }
+
+        .btn-unblock {
+            background: linear-gradient(135deg, #00ff88, #00cc6a);
+            color: #0a0a0a;
+            font-weight: 600;
+        }
+
+        .btn-unblock:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ff3366, #cc2952);
+            color: white;
+        }
+
+        .status-badge {
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .status-active {
+            background: rgba(255, 51, 102, 0.2);
+            color: #ff3366;
+            border: 1px solid #ff3366;
+        }
+
+        .status-expired {
+            background: rgba(108, 117, 125, 0.2);
+            color: #6c757d;
+            border: 1px solid #6c757d;
+        }
+
+        .incidents-card {
+            grid-column: 1 / -1;
+        }
+
+        .incident-item {
+            background: rgba(22, 33, 62, 0.5);
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 3px solid #00ff88;
+        }
+
+        .incident-item .timestamp {
+            color: #6c757d;
+            font-size: 0.8em;
+        }
+
+        .incident-item .action {
+            color: #00ff88;
+            font-weight: 600;
+        }
+
+        .incident-item .target {
+            color: #ff9f43;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .empty-state .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .refresh-btn {
+            background: transparent;
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            background: #00ff88;
+            color: #0a0a0a;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .live-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #00ff88;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🛡️ Security Reviewer Dashboard</h1>
+        <div class="status">
+            <span class="live-indicator"></span>
+            <span id="current-time"></span>
+            <button class="refresh-btn" onclick="location.reload()">↻ Refresh</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="dashboard-grid">
+            <!-- Critical Agent Alerts Card (Removed) -->
+
+            <!-- Blocked Accounts Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🚫 Blocked Accounts</h2>
+                    <span class="count">{{ blocked_accounts|length }}</span>
+                </div>
+                <div class="card-body">
+                    {% if blocked_accounts %}
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for account in blocked_accounts %}
+                            <tr>
+                                <td><strong>{{ account.username }}</strong></td>
+                                <td>{{ account.email or 'N/A' }}</td>
+                                <td>
+                                    <form action="/unblock-account/{{ account.username }}" method="POST"
+                                        style="display:inline;">
+                                        <button type="submit" class="btn btn-unblock"
+                                            onclick="return confirm('Unblock {{ account.username }}?')">
+                                            ✓ Unblock
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    {% else %}
+                    <div class="empty-state">
+                        <div class="icon">✅</div>
+                        <p>No blocked accounts</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Blocked IPs Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🌐 Blocked IPs</h2>
+                    <span class="count">{{ blocked_ips|length }}</span>
+                </div>
+                <div class="card-body">
+                    {% if blocked_ips %}
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>IP Address</th>
+                                <th>Status</th>
+                                <th>Expires</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for ip in blocked_ips %}
+                            <tr>
+                                <td><strong>{{ ip.ip }}</strong></td>
+                                <td>
+                                    {% if ip.is_expired %}
+                                    <span class="status-badge status-expired">Expired</span>
+                                    {% else %}
+                                    <span class="status-badge status-active">Active ({{ ip.remaining_minutes }}m)</span>
+                                    {% endif %}
+                                </td>
+                                <td style="font-size: 0.8em;">{{ ip.expires_at[:19] }}</td>
+                                <td>
+                                    <form action="/unblock-ip/{{ ip.ip }}" method="POST" style="display:inline;">
+                                        <button type="submit" class="btn btn-unblock"
+                                            onclick="return confirm('Unblock IP {{ ip.ip }}?')">
+                                            ✓ Unblock
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    {% else %}
+                    <div class="empty-state">
+                        <div class="icon">✅</div>
+                        <p>No blocked IPs</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Recent Incidents Card -->
+            <div class="card incidents-card">
+                <div class="card-header">
+                    <h2>📋 Recent Incident Logs</h2>
+                    <span class="count">{{ incidents|length }}</span>
+                </div>
+                <div class="card-body">
+                    {% if incidents %}
+                    {% for incident in incidents[:15] %}
+                    <div class="incident-item">
+                        <span class="timestamp">{{ incident.timestamp[:19] }}</span>
+                        <span class="action">{{ incident.action or 'incident_logged' }}</span>
+                        {% if incident.details %}
+                        - <span class="target">{{ incident.details.get('action', '') }} → {{
+                            incident.details.get('target', incident.alert_id) }}</span>
+                        {% else %}
+                        - <span class="target">{{ incident.alert_id }}</span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                    {% else %}
+                    <div class="empty-state">
+                        <div class="icon">📭</div>
+                        <p>No incidents recorded yet</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Update current time
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('current-time').textContent = now.toLocaleString();
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Auto-refresh every 30 seconds
+        setTimeout(() => location.reload(), 30000);
+    </script>
+</body>
+
+</html>

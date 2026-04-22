@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}My Profile - Shopping App{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1><i class="fas fa-user"></i> My Profile</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h3>{{ user[0] }}</h3>
+                <p class="text-muted">{{ user[1] }}</p>
+                
+                <hr>
+                
+                <div class="row">
+                    <div class="col-sm-3"><strong>Member since:</strong></div>
+                    <div class="col-sm-9">{{ user[2] }}</div>
+                </div>
+                
+                <div class="row mt-2">
+                    <div class="col-sm-3"><strong>Wallet Balance:</strong></div>
+                    <div class="col-sm-9">
+                        <span class="badge bg-success fs-6">${{ "%.2f"|format(user[3]) }}</span>
+                    </div>
+                </div>
+                
+                {% if user[4] %}
+                <div class="row mt-2">
+                    <div class="col-sm-3"><strong>Bio:</strong></div>
+                    <div class="col-sm-9">{{ user[4] }}</div>
+                </div>
+                {% endif %}
+                
+                {% if user[5] %}
+                <div class="row mt-2">
+                    <div class="col-sm-3"><strong>Location:</strong></div>
+                    <div class="col-sm-9">{{ user[5] }}</div>
+                </div>
+                {% endif %}
+                
+                {% if user[6] %}
+                <div class="row mt-2">
+                    <div class="col-sm-3"><strong>Website:</strong></div>
+                    <div class="col-sm-9">
+                        <a href="{{ user[6] }}" target="_blank" rel="noopener">{{ user[6] }}</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5>Quick Actions</h5>
+                <div class="d-grid gap-2">
+                    <a href="{{ url_for('edit_profile') }}" class="btn btn-primary">
+                        <i class="fas fa-edit"></i> Edit Profile
+                    </a>
+                    <a href="{{ url_for('my_orders') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-shopping-bag"></i> My Orders
+                    </a>
+                    <a href="{{ url_for('index') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-shopping-cart"></i> Continue Shopping
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

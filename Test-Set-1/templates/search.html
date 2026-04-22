@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Search - Shopping App{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1><i class="fas fa-search"></i> Search</h1>
+        <p class="lead">Search for products and information</p>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-12">
+        <form method="GET" action="{{ url_for('search') }}">
+            <div class="input-group">
+                <input type="text" class="form-control" name="q" placeholder="Enter your search query..." 
+                       value="{{ query }}" required>
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if query %}
+<div class="row">
+    <div class="col-12">
+        <h3>Search Results for: {{ query }}</h3>
+        
+        {% if results %}
+        <div class="row">
+            {% for product in results %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{{ product[4] }}" 
+                         class="card-img-top product-image" 
+                         alt="{{ product[1] }}"
+                         onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300/f8f9fa/6c757d?text={{ product[1]|replace(' ', '+') }}'; this.className='card-img-top product-image product-image-error';">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{ product[1] }}</h5>
+                        <p class="card-text flex-grow-1">{{ product[2] }}</p>
+                        <div class="mt-auto">
+                            <h6 class="text-primary">${{ "%.2f"|format(product[3]) }}</h6>
+                            <a href="{{ url_for('product_detail', product_id=product[0]) }}" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            <p>No products found for "{{ query }}"</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% else %}
+<div class="row">
+    <div class="col-12">
+        <div class="alert alert-info">
+            <h4>Search Tips</h4>
+            <ul>
+                <li>Try searching for product names or categories</li>
+                <li>Use specific keywords for better results</li>
+                <li>Check spelling if no results are found</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
